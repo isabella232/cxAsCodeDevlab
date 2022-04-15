@@ -10,7 +10,7 @@ resource "genesyscloud_telephony_providers_edges_site" "Primary_Site" {
     start     = "2021-08-08T08:00:00.000000"
     end       = "2021-08-08T11:00:00.000000"
   }
-  number_plans {
+  /*number_plans {
     name           = "numberList plan"
     classification = "numberList classification"
     match_type     = "numberList"
@@ -23,13 +23,13 @@ resource "genesyscloud_telephony_providers_edges_site" "Primary_Site" {
       start = "6"
       end   = "8"
     }
-  }
+  }*/
   outbound_routes {
-    name                    = "Default Outbound Route"
-    //description             = "outboundRoute description"
+    name                    = "Terraform route"
+    description             = "outboundRoute description"
     classification_types    = ["International", "National", "Network", "Emergency"]
-    external_trunk_base_ids = data.genesyscloud_telephony_providers_edges_trunkbasesettings.trunkBaseSetting.id
-    //distribution            = "RANDOM"
+    external_trunk_base_ids = [data.genesyscloud_telephony_providers_edges_trunkbasesettings.trunkBaseSetting.id]
+    distribution            = "RANDOM"
     enabled                 = true
   }
 

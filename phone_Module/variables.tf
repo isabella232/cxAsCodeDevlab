@@ -8,9 +8,3 @@ variable "oauthclient_secret" {
 variable "aws_region" {
   default = "DCA"
 }
-
-variable "timeZone" {
-  default = "America/New_York"
-}
-
-//need variable for location address

@@ -1,6 +1,6 @@
 resource "genesyscloud_location" "hq1" {
-  name  = "Terraform location"
-  //notes = "Main Indy Office"
+  name  = "Indy"
+  notes = "Main Indy Office"
   address {
     street1  = "7601 Interactive Way"
     city     = "Indianapolis"

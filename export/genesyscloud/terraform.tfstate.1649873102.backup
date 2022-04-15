@@ -1,0 +1,73 @@
+{
+  "version": 4,
+  "terraform_version": "1.1.6",
+  "serial": 0,
+  "lineage": "c8900ece-42ed-95a5-1ec5-6fab3fb81ab3",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "genesyscloud_telephony_providers_edges_trunk",
+      "name": "Genesys_Cloud_-_CDM_SIP_Phone_Trunk_Trunk_9045f8e9-623c-4e67-90e6-b11738cead0a_2561490121",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "id": "9b222435-596c-45e8-865e-5be41a8674f2",
+            "name": "Genesys Cloud - CDM SIP Phone Trunk Trunk 9045f8e9-623c-4e67-90e6-b11738cead0a"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_telephony_providers_edges_trunk",
+      "name": "Genesys_Cloud_-_CDM_WebRTC_Phone_Trunk_Trunk_55b1c9ff-ae52-4623-a0d9-5ee2a822c2d4_24097282",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "id": "1fa96b17-f1c2-4cb1-8f45-bed93a7f604a",
+            "name": "Genesys Cloud - CDM WebRTC Phone Trunk Trunk 55b1c9ff-ae52-4623-a0d9-5ee2a822c2d4"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_telephony_providers_edges_trunk",
+      "name": "PureCloud_Voice_-_AWS_Trunk_ede7841c-f57c-4e10-8cf3-f03df14d1790_1979932219",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "id": "95988f4b-ab58-4503-b834-8b8fc9f9bb9f",
+            "name": "PureCloud Voice - AWS Trunk ede7841c-f57c-4e10-8cf3-f03df14d1790"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_telephony_providers_edges_trunk",
+      "name": "Tie_trunk_between_Edge_3dec19aa-1834-4154-a47a-7a4b0b7cdc7e_and_Edge_3dec19aa-1834-4154-a47a-7a4b0b7cdc7e_4232638076",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "id": "774fbb08-f8bf-4c73-b835-195101403c7b",
+            "name": "Tie trunk between Edge 3dec19aa-1834-4154-a47a-7a4b0b7cdc7e and Edge 3dec19aa-1834-4154-a47a-7a4b0b7cdc7e"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    }
+  ]
+}

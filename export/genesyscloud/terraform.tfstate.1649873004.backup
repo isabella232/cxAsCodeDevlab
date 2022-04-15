@@ -1,0 +1,753 @@
+{
+  "version": 4,
+  "terraform_version": "1.1.6",
+  "serial": 0,
+  "lineage": "739a7bd3-639a-22d2-8065-d0308791773f",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "alex_shively_genesys_com_3645347472",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "alex.shively@genesys.com",
+            "employer_info.#": "0",
+            "id": "aef74963-762e-410b-865b-596267a723ff",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Alex Shively",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "becky_powell_genesys_com_1343407029",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "Admin",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "becky.powell@genesys.com",
+            "employer_info.#": "0",
+            "id": "19449996-818f-4879-8b71-4ee4a9843a40",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Admin",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": "Admin"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "brad_herrington_genesys_com_1630474765",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "brad.herrington@genesys.com",
+            "employer_info.#": "0",
+            "id": "36353f3c-4d55-45c7-beda-79315faf04bf",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Brad Herrington",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "cove_lee_genesys_com_2241685999",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "cove.lee@genesys.com",
+            "employer_info.#": "0",
+            "id": "c3ed3f8a-20ff-4c08-969f-ea810184c8f6",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Cove Lee",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "daniel_cordray_genesys_com_405033717",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "daniel.cordray@genesys.com",
+            "employer_info.#": "0",
+            "id": "37046800-bf8e-4def-bf44-6fb78809384a",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Daniel Cordray",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "daniel_day_genesys_com_1175709231",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "daniel.day@genesys.com",
+            "employer_info.#": "0",
+            "id": "af3702a6-ba23-4010-8ec3-3a4175497d51",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Daniel Day",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "diondria_brown_genesys_com_602635482",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "diondria.brown@genesys.com",
+            "employer_info.#": "0",
+            "id": "41ffb4dd-2725-4c4d-bcc4-84f62680c1f1",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Diondria Brown",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "jamie_little_genesys_com_2644692038",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "jamie.little@genesys.com",
+            "employer_info.#": "0",
+            "id": "fc1defb8-ea4e-4db6-919c-571295159211",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Jamie Little",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "jay_yeras_genesys_com_3058067890",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "jay.yeras@genesys.com",
+            "employer_info.#": "0",
+            "id": "e3c2f276-54db-47b1-a84e-b148241c140f",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Jay Yeras",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "kristine_lorgan_genesys_com_4143397102",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "kristine.lorgan@genesys.com",
+            "employer_info.#": "0",
+            "id": "f71f4d69-8acc-4446-9944-e65976836b49",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Kristine Lorgan",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "lauren_dygowski_genesys_com_3760148048",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "lauren.dygowski@genesys.com",
+            "employer_info.#": "0",
+            "id": "c65d9e98-82b0-4b0c-aaba-e387698526f3",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Lauren Dygowski",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "mariah_breeze_genesys_com_468249049",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "mariah.breeze@genesys.com",
+            "employer_info.#": "0",
+            "id": "76eeea76-3334-4d23-a973-ff5a8d71adf8",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Mariah Breeze",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "mathew_danish_genesys_com_2496354351",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "mathew.danish@genesys.com",
+            "employer_info.#": "0",
+            "id": "42d1e214-dc7d-499c-b860-7b01fe0848f1",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Mathew Danish",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "mike_rice_genesys_com_3489921651",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "mike.rice@genesys.com",
+            "employer_info.#": "0",
+            "id": "1587649f-67bf-4174-b3ed-cd4ff9a0a09b",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Michael Rice",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "robyousey_genesys_com_2182745775",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "robyousey@genesys.com",
+            "employer_info.#": "0",
+            "id": "723197b3-9a82-4063-8b7a-30bda4d7513b",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Rob Yousey",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "ryan_duffy_genesys_com_4240544476",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "ryan.duffy@genesys.com",
+            "employer_info.#": "0",
+            "id": "b70bff38-63f4-4755-8ad7-927db33b5249",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Ryan Duffy",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "sam_ali_genesys_com_4173982083",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "sam.ali@genesys.com",
+            "employer_info.#": "0",
+            "id": "cde119c3-88f7-488d-bfde-a7319a0a5725",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Sam Ali",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "samuel_karras_genesys_com_987423589",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "samuel.karras@genesys.com",
+            "employer_info.#": "0",
+            "id": "750e2a23-44bd-4ff1-96b5-89042d5474f4",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Sam Karras",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "taylor_wilkerson_genesys_com_1694903407",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "taylor.wilkerson@genesys.com",
+            "employer_info.#": "0",
+            "id": "b7d2d8ad-46d2-4515-8d51-7b5a76c0a321",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Taylor Wilkerson",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "teri_pedersen_genesys_com_2133812568",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "teri.pedersen@genesys.com",
+            "employer_info.#": "0",
+            "id": "a7ecbd9e-4703-470c-9161-addc57989869",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Teri Ferris",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "tj_mouslmani_genesys_com_4177389167",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "tj.mouslmani@genesys.com",
+            "employer_info.#": "0",
+            "id": "6406aec1-027e-44d3-b5ae-3b345221fe6c",
+            "locations.#": "0",
+            "manager": "",
+            "name": "TJ Mouslmani",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "travis_coleman_genesys_com_2565251514",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "travis.coleman@genesys.com",
+            "employer_info.#": "0",
+            "id": "5ed38cbb-ccf3-43c0-b6ca-4ce598038112",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Travis Coleman",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "veronica_guevara_genesys_com_1289618228",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "veronica.guevara@genesys.com",
+            "employer_info.#": "0",
+            "id": "34742a2f-5372-4358-8600-d1bd3cbf4652",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Veronica Guevara",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "vivek_patel2_genesys_com_1108462739",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4ec93f6-5801-4a7b-a89b-07c95fdf37fb",
+            "email": "vivek.patel2@genesys.com",
+            "employer_info.#": "0",
+            "id": "9ff9eb77-81e4-4cea-a5e0-1f19cd481892",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Vivek Patel",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    }
+  ]
+}

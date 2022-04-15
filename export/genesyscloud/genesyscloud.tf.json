@@ -1,0 +1,38 @@
+{
+  "resource": {
+    "genesyscloud_telephony_providers_edges_trunk": {
+      "Genesys_Cloud_-_CDM_SIP_Phone_Trunk_Trunk_9045f8e9-623c-4e67-90e6-b11738cead0a_2561490121": {
+        "edge_group_id": null,
+        "edge_id": null,
+        "name": "Genesys Cloud - CDM SIP Phone Trunk Trunk 9045f8e9-623c-4e67-90e6-b11738cead0a",
+        "trunk_base_settings_id": null
+      },
+      "Genesys_Cloud_-_CDM_WebRTC_Phone_Trunk_Trunk_55b1c9ff-ae52-4623-a0d9-5ee2a822c2d4_24097282": {
+        "edge_group_id": null,
+        "edge_id": null,
+        "name": "Genesys Cloud - CDM WebRTC Phone Trunk Trunk 55b1c9ff-ae52-4623-a0d9-5ee2a822c2d4",
+        "trunk_base_settings_id": null
+      },
+      "PureCloud_Voice_-_AWS_Trunk_ede7841c-f57c-4e10-8cf3-f03df14d1790_1979932219": {
+        "edge_group_id": null,
+        "edge_id": null,
+        "name": "PureCloud Voice - AWS Trunk ede7841c-f57c-4e10-8cf3-f03df14d1790",
+        "trunk_base_settings_id": null
+      },
+      "Tie_trunk_between_Edge_3dec19aa-1834-4154-a47a-7a4b0b7cdc7e_and_Edge_3dec19aa-1834-4154-a47a-7a4b0b7cdc7e_4232638076": {
+        "edge_group_id": null,
+        "edge_id": null,
+        "name": "Tie trunk between Edge 3dec19aa-1834-4154-a47a-7a4b0b7cdc7e and Edge 3dec19aa-1834-4154-a47a-7a4b0b7cdc7e",
+        "trunk_base_settings_id": null
+      }
+    }
+  },
+  "terraform": {
+    "required_providers": {
+      "genesyscloud": {
+        "source": "registry.terraform.io/mypurecloud/genesyscloud",
+        "version": "1.0.2"
+      }
+    }
+  }
+}

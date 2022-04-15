@@ -3,11 +3,11 @@ resource "genesyscloud_telephony_providers_edges_phone" "test_phone" {
   state                  = "active"
   site_id                = genesyscloud_telephony_providers_edges_site.Primary_Site.id
   phone_base_settings_id = genesyscloud_telephony_providers_edges_phonebasesettings.PhoneBaseSetting.id
-  line_base_settings_id  = data.genesyscloud_telephony_providers_edges_linebasesettings.lineBaseSetting.id
+  line_base_settings_id  = genesyscloud_telephony_providers_edges_phonebasesettings.PhoneBaseSetting.id
   //line_addresses         = ["+13175550000"]
-  //web_rtc_user_id        = genesyscloud_user.user.id
+  web_rtc_user_id        = module.CreateUsersAndQueues.User.id
 
-  capabilities {
+  /*capabilities {
     provisions            = false
     registers             = false
     dual_registers        = false
@@ -17,5 +17,5 @@ resource "genesyscloud_telephony_providers_edges_phone" "test_phone" {
     cdm                   = true
     hardware_id_type      = "mac"
     media_codecs          = ["audio/opus"]
-  }
+  }*/
 }

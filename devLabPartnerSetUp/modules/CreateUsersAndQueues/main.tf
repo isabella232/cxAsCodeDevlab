@@ -14,18 +14,18 @@ provider "genesyscloud" {
   aws_region = var.aws_region
 }
 
-/*data "genesyscloud_auth_role" "Role" {
-  name = "TerraformRole"
-}*/
+data "genesyscloud_auth_role" "Role" {
+  name = "User"
+}
 
 resource "genesyscloud_routing_skill" "skill" {
-  name = "Terraform Skill"
+  name = "Terraform Skill 2"
 }
 
 resource "genesyscloud_user" "user" {
-  email           = "terraform@example.com"
-  name            = "Terraform guy"
-  password        = "Terraform123!"
+  email           = "terrafor2m@example.com"
+  name            = "Terraform guy 2"
+  password        = "Terraform1234!"
   //division_id     = genesyscloud_auth_division.home.id
   state           = "active"
   department      = "Development"
@@ -98,20 +98,20 @@ resource "genesyscloud_user" "user" {
 }
 
 //This resources appears to not be working. Users will be created with Employee role and roles will need to be added manually until this is fixed
-/*resource "genesyscloud_user_roles" "AssignRole" {
-  user_id = "c6e8c01c-d953-446c-b37a-a2a5d78c81eb"
+resource "genesyscloud_user_roles" "AssignRole" {
+  user_id = genesyscloud_user.user.id
   roles {
-    role_id      = "d24b8edc-10c7-4f57-b1ac-a75bafa5ff3b"
+    role_id      = data.genesyscloud_auth_role.Role.id
     //division_ids = [genesyscloud_auth_division.marketing.id]
   }
-}*/
+}
 
 resource "genesyscloud_routing_wrapupcode" "wrapup_code" {
-  name = "terraform wrap code"
+  name = "terraform wrap code 2"
 }
 
 resource "genesyscloud_routing_queue" "Queue" {
-  name                              = "Terraform queue"
+  name                              = "Terraform queue 2"
   //division_id                       = genesyscloud_auth_division.home.id
   description                       = "This is a test queue"
   acw_wrapup_prompt                 = "MANDATORY_TIMEOUT"
@@ -152,3 +152,4 @@ resource "genesyscloud_routing_queue" "Queue" {
   }
   wrapup_codes = [genesyscloud_routing_wrapupcode.wrapup_code.id]
 }
+

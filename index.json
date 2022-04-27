@@ -11,21 +11,21 @@
 	"title": "First Lesson",
 	"tags": [],
 	"description": "",
-	"content": "Configure Workshop   Step one\n  Step two\n  Step three\n  "
+	"content": "What is CX as Code? CX as Code is a configuration tool that allows you to define Genesys CLoud Objects such as Queuesm Skills, Users, etc. in plain text files and then apply that configuration accross multiple Genesys CX organizations\n\u0026ldquo;title of image\u0026rdquo;\n CX as Code Resources CX as Code resources are used to create configuration components using various Imput fields such as name and description as well as data sources (such as division_ID or Queue_Flow_ID)\nimage slide 5\nCX as Code Data Sources Data Sources are simelar to GET Requests, allowing you to GET refrencable information that exists on the platform to be refrenced within resources by component name as shown below\n In the data source below (see image), we are retrieving the welcome greeting by its name \u0026ldquo;Welcome_Greeting\u0026rdquo;, this can be then refrenced in the previous resource example to populate the whisper prompt for the queue  image slide 6\nAuth Access Requirements Within resources you will see a defined list of API access requirements for the auth client you\u0026rsquo;ve constructted which will outline the permissions your auth client requires to execute the sepcific resource you are reviewing\nimage slide 7\nWhat is Terraform Terraform is a tool for building and managing infrastructures. It takes in configuration files, which specify how the resources should be set up and configured. Terraform will generate an execution plan describing what needs to be done to reach the desired state. Terraform then applies the plan and builds the specified infrastructure. When new changes are made to the configuration files, Terraform is able to detect differences and generate incremental execution plans for changes.​\nimage slide 8\n"
 },
 {
 	"uri": "/010-introduction.html",
 	"title": "Introduction",
 	"tags": [],
 	"description": "",
-	"content": "Genesys Workshop Series Introduction Welcome In this workshop, you will learn\u0026hellip;\n This workshop is focused on things one, two and three.\n Learning Objectives  Master this Configure that Integrate this  "
+	"content": "Genesys Workshop Series Introduction The goal of the workshop is to introduce the newest tool to the Genesys Cloud developer ecosystem. In the workshop, we will be configuring and executing resources sourced from the Genesys Github repository.\nOverview In this workshop, we will cover 2 primary segments\n Overview session on CX as Code: We\u0026rsquo;ll be walking through the fundamentals of CX as Code, Terraform, Resources, and Data Source structures and pre-requisites.\n  Guided Workshop: The second half of the workshop will be a guided walkthrough where you will Fork from Genesys Github repository​, and Construct and execute your first resource!\n Learning Objectives  Define and differentiate CX as Code and Terraform Understand basic CX as Code Resource and Data source Structures Install and access all pre-requisites Construct an Oauth Client Fork from the Genesys Github Repository Clone your remote Github repository to your local repository Construct and Execute your first resource  Resources CX as Code Developer Blog\nTerraform\nGenesys Terraform Github Repository\nTerraform CLI\nVisual STudio Code\n"
 },
 {
 	"uri": "/020-getting-started.html",
 	"title": "Getting Started",
 	"tags": [],
 	"description": "",
-	"content": "Getting Started  First Lesson   Second Lesson   "
+	"content": "Getting Started  First Lesson   Second Lesson      "
 },
 {
 	"uri": "/020-getting-started/20_second.html",
@@ -40,6 +40,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Conclusion Congrats! You\u0026rsquo;ve reached the end of today\u0026rsquo;s workshop. Please fill out today\u0026rsquo;s feedback form via this TODO\n "
+},
+{
+	"uri": "/020-getting-started/30_third.html",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "/categories.html",

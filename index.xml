@@ -12,10 +12,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/020-getting-started/10_first.html</guid>
-      <description>Configure Workshop   Step one
-  Step two
-  Step three
-  </description>
+      <description>What is CX as Code? CX as Code is a configuration tool that allows you to define Genesys CLoud Objects such as Queuesm Skills, Users, etc. in plain text files and then apply that configuration accross multiple Genesys CX organizations
+&amp;ldquo;title of image&amp;rdquo;
+ CX as Code Resources CX as Code resources are used to create configuration components using various Imput fields such as name and description as well as data sources (such as division_ID or Queue_Flow_ID)</description>
     </item>
     
     <item>
@@ -28,6 +27,15 @@
   Step two
   Step three
   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/020-getting-started/30_third.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/020-getting-started/30_third.html</guid>
+      <description></description>
     </item>
     
   </channel>
